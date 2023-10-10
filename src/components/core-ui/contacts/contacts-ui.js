@@ -28,7 +28,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                   Name
                 </label>
                 <input
-                  placeholder='John Doe'
+                  placeholder='Gen Ze'
                   value={name}
                   onChange={(e) => setName(e.target.value)}
                   type='text'
@@ -44,7 +44,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                   Email
                 </label>
                 <input
-                  placeholder='John@doe.com'
+                  placeholder='Genz@abc.com'
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   type='email'
@@ -144,7 +144,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
                 {contactsData.email}
               </p>
             </a>
-            <a
+            {/* <a
               href={`tel:${contactsData.phone}`}
               className='personal-details'
             >
@@ -154,7 +154,7 @@ const ContactUI = ({ open, success, errMsg, handleClose, classes, handleContactF
               <p style={{ color: theme.tertiary }}>
                 {contactsData.phone}
               </p>
-            </a>
+            </a> */}
             <div className='personal-details'>
               <div className={classes.detailsIcon}>
                 <HiOutlineLocationMarker />

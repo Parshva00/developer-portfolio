@@ -96,9 +96,9 @@ function LandingUI({ theme, drawerOpen, classes }) {
                         <h1>{headerData.name}</h1>
                         <Typed
                             strings={[
-                                'Backend Developer',
-                                'Frontend Developer',
-                                'Fullstack Developer']}
+                                'Software Developer',
+                                'Cloud Engineer',
+                                'Full Stack Developer']}
                             typeSpeed={40}
                             backSpeed={50}
                             className="typed-header"
@@ -116,7 +116,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                     rel='noreferrer'
                                 >
                                     <button className={classes.resumeBtn}>
-                                        Download CV
+                                        Download Resume
                                     </button>
                                 </a>
                             )}

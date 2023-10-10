@@ -1,5 +1,5 @@
 export const aboutData = {
     title: "Who I am",
-    description1: "My name is ABU SAID. I'm a web designer and developer based in Dhaka, Bangladesh.",
-    description2: "I am a professional and passionate programmer in my daily life. A quick learner with a self-learning attitude. I love to learn and explore new technologies and am Passionate about Problem Solving. Love almost all the stacks of Software Engineering. My current stack includes Nodejs, Nestjs, React, NextJs, Redux, Bootstrap, Ant Design, Material UI, MongoDB, Mysql, PostgreSQL, Firebase, Cloudinary, etc.",
+    description1: "I am Parshva Shah. A passionate and results-driven tech enthusiast based in Halifax, Canada.",
+    description2: "With a strong foundation in Computer Science and a thirst for innovation, I'm on a mission to make a significant impact in the tech world. My versatile skill set and adaptability makes me a valuable asset. While, I am currently pursuing my Master's in Applied Computer Science at Dalhousie University, my past experience includes working with Java, JavaScript, HTML, CSS, React.js, Node.js, CI/CD. Driven by a profound understanding of cloud technologies, including AWS, Google Cloud Platform, and Azure, coupled with expertise in containerization through Docker and Kubernetes, I am dedicated to applying my cloud and DevOps skills to drive innovation and optimize IT infrastructure.",
 }
