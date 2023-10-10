@@ -23,7 +23,7 @@ function NavbarUI({
   return (
     <div className="navbar">
       <div className="navbar--container">
-        <h1 style={{ color: theme.primary }}>{shortname(headerData.name)}</h1>
+        <h1 style={{ color: theme.primary }}>{shortname(headerData.portfolio)}</h1>
 
         <IoMenuSharp
           className={classes.navMenu}

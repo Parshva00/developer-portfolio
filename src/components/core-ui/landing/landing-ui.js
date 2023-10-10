@@ -108,18 +108,6 @@ function LandingUI({ theme, drawerOpen, classes }) {
                         <p>{headerData.desciption}</p>
 
                         <div className='lcr-buttonContainer'>
-                            {headerData.resumePdf && (
-                                <a
-                                    href={headerData.resumePdf}
-                                    download='resume'
-                                    target='_blank'
-                                    rel='noreferrer'
-                                >
-                                    <button className={classes.resumeBtn}>
-                                        Download Resume
-                                    </button>
-                                </a>
-                            )}
                             <NavLink
                                 to='/#contacts'
                                 smooth={true}
@@ -127,7 +115,7 @@ function LandingUI({ theme, drawerOpen, classes }) {
                                 duration={2000}
                             >
                                 <button className={classes.contactBtn}>
-                                    Contact
+                                    Contact Me
                                 </button>
                             </NavLink>
                         </div>
